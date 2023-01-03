@@ -65,6 +65,7 @@ executable AOC2016-Haskell
     other-modules:
         Day01
         Day02
+        Day03
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -73,7 +74,8 @@ executable AOC2016-Haskell
     build-depends:    
         base ^>=4.15.1.0,
         split ^>=0.2.3.5,
-        time ^>=1.9.3
+        time ^>=1.9.3,
+        regex-pcre ^>=0.95.0.0
 
     -- Directories containing source files.
     hs-source-dirs:   app, src

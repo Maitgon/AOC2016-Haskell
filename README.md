@@ -9,3 +9,4 @@ Here are my solutions for advent of code 2016 in haskell
 | Day01 | 33&mu;s  |
 | Day02 | 88&mu;s  |
 | Day03 | 35&mu;s  |
+| Day04 | 38&mu;s  |

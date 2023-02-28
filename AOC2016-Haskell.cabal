@@ -69,6 +69,7 @@ executable AOC2016-Haskell
         Day04
         Day05
         Day06
+        Day07
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -83,6 +84,7 @@ executable AOC2016-Haskell
         bytestring ^>=0.10.11.1,
         cryptohash ^>=0.11.9,
         multiset ^>=0.3.4.3,
+        regex-applicative ^>=0.3.4,
 
     -- Directories containing source files.
     hs-source-dirs:   app, src

@@ -20,7 +20,7 @@ name:               AOC2016-Haskell
 -- PVP summary:     +-+------- breaking API changes
 --                  | | +----- non-breaking API additions
 --                  | | | +--- code changes with no API change
-version:            0.1.0.0
+version:            0.1.0.8
 
 -- A short (one-line) description of the package.
 -- synopsis:
@@ -70,21 +70,23 @@ executable AOC2016-Haskell
         Day05
         Day06
         Day07
+        Day08
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
     build-depends:    
-        base ^>=4.15.1.0,
+        base >=4.16.4.0,
         split ^>=0.2.3.5,
         time ^>=1.9.3,
         regex-pcre ^>=0.95.0.0,
         containers ^>=0.6.4.1,
-        bytestring ^>=0.10.11.1,
+        bytestring ^>=0.11.4.0,
         cryptohash ^>=0.11.9,
         multiset ^>=0.3.4.3,
         regex-applicative ^>=0.3.4,
+        parsec ^>=3.1.16.1,
 
     -- Directories containing source files.
     hs-source-dirs:   app, src
